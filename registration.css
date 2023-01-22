@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#header-style {
+  width: 100%;
+  height: 120px;
+  background-color: rgba(246, 246, 246, 0.989);
+  border-bottom: 1px solid rgb(226, 224, 224);
+  margin-bottom: 2%;
+}
+
+#logo-image {
+  height: 60px;
+  width: 60px;
+}
+
+.first-section-div {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font-size: 22px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#first-section {
+  margin-bottom: 5%;
+}
+
+.lower-section {
+  border-top: 1px solid rgb(226, 224, 224);
+  background-color: rgba(246, 246, 246, 0.989);
+  height: 200px;
+  margin-top: 2%;
+}
+
+.second-section-element {
+  display: flex;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+#second-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#name-input,
+#password-input,
+#email-input,
+#repeat-input {
+  width: 100%;
+  border: 2px solid rgba(246, 246, 246, 0.989);
+  border-radius: 2px;
+  height: 20px;
+}
+
+#register-banner {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#registration-button {
+  background-color: rgba(246, 246, 246, 0.989);
+  width: 20%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+#login-link-container {
+  font-size: 14px;
+  margin-top: 15px;
+}
